@@ -1,4 +1,4 @@
-# sq_img
+# sq
 Simple shell script to square images using Imagemagick (`convert` for compatibility).
 
 ## Installation

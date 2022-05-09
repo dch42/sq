@@ -1,5 +1,5 @@
 # sq
-Simple shell script to square images using Imagemagick (`convert` for compatibility).
+Simple shell script to square images using Imagemagick. Uses 'convert' for compatibility on older systems.
 
 ## Installation
 
@@ -9,7 +9,7 @@ Clone the repo and run `./setup.sh`:
 git clone https://github.com/dch42/sq.git && cd sq && chmod +x ./setup.sh && ./setup.sh
 ~~~
 
-`setup.sh` will create a personal binary directory at '/Users/$USER/bin' (if it doesn't already exist) and add it to PATH. It will copy the script there after adding executible permissions.
+For Linux and MacOS users, `setup.sh` will create a personal binary directory at '~/bin' (if it doesn't already exist) and add it to $PATH (assuming bash or zsh shells), making the script available there as `sq`.
 
 ## Usage
 ~~~
